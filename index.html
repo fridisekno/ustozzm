@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout Example</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header, footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-size: 32px;
+      margin: 30px 0;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Навбар -->
+  <header>
+    <div>Logo</div>
+    <div>navbar</div>
+    <div>navbar</div>
+    <div>navbar</div>
+    <div>navbar</div>
+    <div>navbar</div>
+  </header>
+
+  <!-- Секция -->
+  <div class="section-title">1-Section</div>
+
+  <!-- Контент -->
+  <div class="content">
+    <div class="box">Left</div>
+    <div class="box">Right</div>
+  </div>
+
+  <!-- Футер -->
+  <footer>
+    <div>Logo</div>
+    <div>footer</div>
+    <div>footer</div>
+    <div>footer</div>
+    <div>footer</div>
+    <div>footer</div>
+  </footer>
+
+</body>
+</html>
